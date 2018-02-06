@@ -4,6 +4,7 @@
 ## Making Sense of the HDI
 * http://kcorreia.com/2010/making-sense-of-the-hdi/
 * hdi-analysis.xlsx
+
 Functions
 * use of match, index,
 * average/stdev ifs using arrays
