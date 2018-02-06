@@ -28,7 +28,7 @@ Functions:
 
 
 ## 2008 Election Analysis
-2008_election_us.xlsx
+[2008_election_us.xlsx](https://github.com/kcorreia/bz_excel_python_workshop/blob/master/2008_election_us.xlsx)
 
 Functions:
 * download data from a table in an HTML page
@@ -43,5 +43,5 @@ Functions:
 * http://kcorreia.com/2016/usdcad-wti-correlation/
 * code can be made available, but was done with Python
 
-## Check out my repo for scrapping ufotmedstore for order details
+## Scrapping tool to get order details from UfoT Medstore
 * https://github.com/kcorreia/uoftmedstore_scrape
