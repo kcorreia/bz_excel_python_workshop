@@ -14,6 +14,7 @@ Functions
 ## Cineplex offers a free movie with General Mills cereal: watch a subpar movie with subpar cereal
 * http://kcorreia.com/2011/cineplex-movies/
 * movie_analysis.xlsx
+
 Functions:
 * sum/count ifs using arrays
 
@@ -21,12 +22,14 @@ Functions:
 ## Is spring warmer than fall? Let’s find out!
 * http://kcorreia.com/2010/spring-warmer-than-fall/
 * temp-sin.xlsx
+
 Functions:
 * matrix calculations in Excel for linear regression
 
 
 ## 2008 Election Analysis
 2008_election_us.xlsx
+
 Functions:
 * download webdata
 * vlookup
