@@ -39,9 +39,9 @@ len(f_states)
 df=f_states[0]
 
 
-# get dataframe columns
+# get dataframe column names
 df.columns
-# columns as a list
+# column names as a list
 df.columns.tolist()
 
 # get dataframe indicies
@@ -49,9 +49,39 @@ df.index
 # indicies as a list
 df.index.tolist()
 
-
 # retreive index=9, column=1: Florida
 df[1][9]
+
+
+# convert columns to lists
+state_codes=df[0][1:].tolist()
+state_names=df[1][1:].tolist()
+
+# create a sublist of states that end with the letter a
+states_a=[]
+for state_name in state_names:
+	if state_name.lower()[-1]=='a':
+		states_a.append(state_name)
+
+states_a
+
+# sublist can also be created with something called list comprehension
+# this yields the same output as the above function
+# this is what people refer to as Pythonic (one liner, easy to read)
+states_a=[state_name for state_name in state_names if state_name.lower()[-1]=='a']
+
+# lists can be combined into tuples with zip
+states_tuple=zip(state_codes,state_names)
+# 'de-tuple' using zip(*)
+state_codes_de,state_names_de=zip(*states_tuple)
+
+# create a dictionary using dictionary comprehension
+states_dict={state_code:state_name for state_code,state_name in states_tuple}
+
+states_dict['WA']
+
+
+
 
 # write table to file, with tab separated, do not include header
 # or indices in output
